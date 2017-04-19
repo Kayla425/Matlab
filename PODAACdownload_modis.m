@@ -25,10 +25,6 @@ OutputDirName = '/Volumes/LaCie_Secondary/data/modis/aqua/sst/ptc/2014/Matlab/';
 % 
 % ---------------SCRIPT-------------------%
 %
-clear all
-close all
-clc
-%
 [fileID,message] = fopen(InputFileName); %Amsre2011
 http = textscan(fileID,'%s');
 http = cat(2,http{:});
